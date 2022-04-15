@@ -16,12 +16,13 @@ h1 {
 
 main {
   padding: 5rem 0;
-  position: fixed;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .container {
@@ -31,8 +32,7 @@ main {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-left: 50px;
-  padding-right: 50px;
+  position: fixed;
 }
 
 /** BEGIN OF COMMON CLASSES */
