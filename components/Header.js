@@ -1,3 +1,5 @@
-export default function Header({ title }) {
-  return <h1 className="title">{title}</h1>
+import classnames from "classnames"
+
+export default function Header({ title, className }) {
+  return <h1 className={classnames('title', className)}>{title}</h1>
 }
