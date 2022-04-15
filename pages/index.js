@@ -7,7 +7,7 @@ import { Fragment } from "react/cjs/react.production.min";
 
 export default function Home() {
   return (
-    <div className="container">
+    <div className="container center-abs-div">
       <Head>
         <title>Motors Moment</title>
         <link rel="icon" href="/favicon.ico" />

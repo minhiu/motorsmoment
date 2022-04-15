@@ -15,6 +15,7 @@ h1 {
 }
 
 main {
+  height: 100vh;
   padding: 5rem 0;
   flex: 1;
   display: flex;
@@ -26,7 +27,6 @@ main {
 }
 
 .container {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
