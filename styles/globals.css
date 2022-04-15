@@ -16,6 +16,7 @@ h1 {
 
 main {
   padding: 5rem 0;
+  position: fixed;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -30,6 +31,8 @@ main {
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 /** BEGIN OF COMMON CLASSES */
