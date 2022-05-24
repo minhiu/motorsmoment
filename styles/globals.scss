@@ -1,0 +1,61 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Urbanist", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: white !important;
+}
+
+p {
+  font-size: 1.5rem !important;
+}
+
+.w-fullscreen {
+  width: 100vw;
+  width: 100%;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.hw-full {
+  height: 100%;
+  width: 100%;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.h-max-100vh {
+  max-height: 100vh;
+  height: 100%;
+}
+
+.font-weight-bold {
+  font-weight: 600 !important;
+}
+
+.pos-abs-bottom {
+  position: absolute;
+  bottom: 5rem;
+}
+
+.loader-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,13 @@
+.videoWrapper {
+  margin-bottom: -6px; // Temporary fix
+}
+
+.social {
+  position: absolute;
+  right: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 0;
+  bottom: 0;
+}

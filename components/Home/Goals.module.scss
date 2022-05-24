@@ -1,0 +1,45 @@
+.bgIntro {
+  background-color: #36383f;
+  color: #413F42 !important;
+}
+
+.progressBar {
+  position: relative;
+  height: 300vh;
+  margin: 0;
+}
+
+.wrapper {
+  position: sticky;
+  height: 100vh;
+  top: 30%;
+}
+
+.scrollContainer {
+  position: relative;
+  display: block;
+  margin: auto;
+  height: 90px;
+  width: 90px;
+}
+
+.scrollContainer:after {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  content: attr(data-scroll);
+  border-radius: 50%;
+  color: #FCFFE7;
+}
+
+.cirlceBg {
+  stroke: #FCFFE7;
+  stroke-width: 1px;
+}
+
+.circleProgress {
+  stroke-width: 3px;
+  transition: .1s;
+  stroke: #fff;
+}
