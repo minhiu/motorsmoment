@@ -6,7 +6,7 @@ const Mint = () => {
     <section id="mint" className="position-fixed h-max-100vh w-full">
       <Header />
       <IframeResizer
-        src="https://opensea.io/collection/cryptopunks?embed=true"
+        src="https://opensea.io/collection/motors-moment?embed=true"
         style={{ width: "100%", height: "100%" }}
         scrolling={true}
       />

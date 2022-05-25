@@ -8,3 +8,9 @@
   background-color: #000;
   z-index: 1;
 }
+
+@media (min-width: 768px) {
+  .navbar {
+    justify-content: end !important;
+  }
+}

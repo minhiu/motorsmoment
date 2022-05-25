@@ -2,6 +2,7 @@ import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 config.autoAddCss = false;
 import "@styles/globals.scss";
+import "@styles/roadmap.scss";
 import Head from "next/head";
 import React, { useState, useEffect } from "react";
 import ClipLoader from "react-spinners/ClipLoader";

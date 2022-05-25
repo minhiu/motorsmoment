@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <div className={classNames("bg-black", "bg-opacity-75", styles.header)}>
       <a className="nav-link">
-        <Link href="/#home">
+        <Link href="/home">
           <Fragment>
             M<FontAwesomeIcon icon={faGear} size={"xs"} />
             TORS M<FontAwesomeIcon icon={faGear} size={"xs"} />
