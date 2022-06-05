@@ -12,7 +12,7 @@ const Team = () => {
         "d-flex",
         "justify-content-center",
         "items-center",
-        styles.bgIntro
+        "background-dotty-black"
       )}
     >
       <div className="col-xl-8 col-lg-8 col-md-8 col-sm-10 col-10 text-center text-dark m-auto pt-5 pb-5">

@@ -16,15 +16,15 @@ const WhyUs = () => {
     <section
       id="why-us"
       className={classNames(
-        "pattern-grid-lg",
+        "pattern-cross-dots-xl",
         "d-flex",
         "justify-content-center",
         "items-center",
-        styles.bgIntro
+        "background-dotty-black"
       )}
     >
       <div className="col-xl-8 col-lg-8 col-md-8 col-sm-10 col-10 text-center m-auto pt-5 pb-5">
-        <h1 className="mb-5 font-weight-bold text-dark">
+        <h1 className="mb-5 font-weight-bold">
           <Fragment>
             M<FontAwesomeIcon className="fa-spin" icon={faGear} size={"xs"} />
             TORS M
@@ -32,7 +32,7 @@ const WhyUs = () => {
             MENT
           </Fragment>
         </h1>
-        <h2 className="mb-5 font-weight-bold text-dark">WHY US</h2>
+        <h2 className="mb-5 font-weight-bold">WHY US</h2>
         <div className="row text-dark flex-wrap justify-content-center">
           <IconCard
             icon={<FontAwesomeIcon icon={faStore} />}

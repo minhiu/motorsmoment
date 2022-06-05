@@ -10,7 +10,9 @@
   -webkit-transition: all 0.5s ease 0;
   transition: all 0.5s ease 0;
   transition: all 0.5s ease 0s;
-
+  p {
+    color: #36383f !important;
+  }
   .icon {
     font-size: 40px;
     margin-bottom: 25px;
@@ -30,7 +32,7 @@
 
     h6,
     p {
-      color: #fff;
+      color: #fff !important;
       -webkit-transition: all 0.5s ease 0;
       transition: all 0.5s ease 0;
       transition: all 0.5s ease 0s;

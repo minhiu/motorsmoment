@@ -55,11 +55,11 @@ const Goals = () => {
     <section
       className={classNames(
         "position-relative",
-        "pattern-zigzag-lg",
+        "pattern-cross-dots-xl",
         "d-flex",
         "justify-content-center",
         "items-center",
-        styles.bgIntro
+        "background-dotty-black"
       )}
     >
       <div className="col-xl-8 col-lg-8 col-md-8 col-sm-10 col-10 text-center m-auto pt-5">
